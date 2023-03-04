@@ -1,0 +1,123 @@
+#navbar {
+    height: 180px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/* showcase */
+
+#showcase {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(/img/theoriginals-bg1.jpg) no-repeat center center/cover;
+
+    background-size: 100%;
+    background-position-y: 160px;
+
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: color;
+}
+
+#showcase-container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#showcase-container h2 {
+    font-size: 2rem;
+}
+
+#showcase-container p {
+    font-size: 1rem;
+    padding: 7px 0;
+}
+
+/* streamings */
+
+#streamings-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.streaming {
+    display: inline-block;
+    width: 25%;
+    margin-left: 40%;
+}
+
+/* sobre */
+
+#sobre-container {
+    display: inline-block;
+    width: 100%;
+}
+
+#sobre-container img {
+    width: 100%;
+}
+
+#items-sobre {
+    width: 100%
+}
+
+#items-sobre #item {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    height: 100%;
+}
+
+#item p {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+
+
+/* characters */
+
+#characters {
+    width: 100%;
+    padding: 50px;
+    background: #333;
+    color: #eee;
+}
+
+#characters-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    margin: 10px;
+    margin-left: 20px;
+}
+ 
+.character-image {
+    width: 90%;
+}
+
+
